@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding-top: 40px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 25px;
+    margin-bottom: 25px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn {
+    width: 150px;
+    height: 55px;
+    border-radius: 4px;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.blue {
+    background-color: #1689e5;
+    border: 1px solid #1689e5;
+}
+
+.outline {
+    background-color: white;
+    color: #609b3c;
+    border: 3px solid #609b3c;
+    border-radius: 30px;
+}
+
+
+.red {
+    background-color: #ed4545;
+    border: 1px solid #d32f2f;
+    
+}
+
+
+.teal {
+    background-color: #009b8f;
+    border: 1px solid #008578;
+}
+
+
+.purple {
+    background-color: #b15cc4;
+    border: 1px solid #9745a9;
+    box-shadow: 0 4px 3px #6d1c7e;
+}
+
+
+.orange {
+    background-color: #ff6700;
+    border: 1px solid #e65b00;
+    box-shadow: 0 2px 2px #c94d00;
+}
+
+Hover effect
+.btn:hover {
+    opacity: 0.85;
+}
